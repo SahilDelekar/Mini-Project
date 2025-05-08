@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .mess-gallery img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .price-details {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .menu-list li {
+            margin-bottom: 10px;
+        }
+
+        .reviews {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hostel & Mess Finder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="HomePage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="HostelListing.html">Hostels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MessListing.html">Mess</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Mess Gallery and Description -->
+            <div class="col-md-8">
+                <h3>Mess Name</h3>
+                <p>Address: 456, Street, City, State</p>
+
+                <!-- Mess Gallery -->
+                <div class="mess-gallery">
+                    <img src="mess1.jpg" alt="Mess Image 1">
+                    <img src="mess2.jpg" alt="Mess Image 2">
+                    <img src="mess3.jpg" alt="Mess Image 3">
+                </div>
+
+                <!-- Mess Description -->
+                <div class="mt-4">
+                    <h5>Description</h5>
+                    <p>This is a detailed description of the mess, the type of food they serve, and the environment. It provides various meal plans catering to different dietary preferences.</p>
+                </div>
+
+                <!-- Menu and Facilities -->
+                <div class="mt-4">
+                    <h5>Menu</h5>
+                    <ul class="menu-list list-unstyled">
+                        <li>✔ Veg Meals: $5 per meal</li>
+                        <li>✔ Non-Veg Meals: $6 per meal</li>
+                        <li>✔ Vegan Meals: $7 per meal</li>
+                        <li>✔ Breakfast, Lunch, Dinner available</li>
+                    </ul>
+                </div>
+
+                <!-- Reviews Section -->
+                <div class="reviews mt-5">
+                    <h5>Reviews</h5>
+                    <p>John Doe: "Great food, especially the veg meals. Very affordable!"</p>
+                    <p>Jane Smith: "Loved the variety in the menu. Clean and hygienic environment."</p>
+                </div>
+            </div>
+
+            <!-- Price and Booking -->
+            <div class="col-md-4">
+                <div class="price-details">
+                    <h4>Price</h4>
+                    <p>Starting from $5 per meal</p>
+                    <a href="#" class="btn btn-success btn-block">Book Now</a>
+                </div>
+
+                <div class="contact-details mt-4">
+                    <h5>Contact Details</h5>
+                    <p>Email: mess@example.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

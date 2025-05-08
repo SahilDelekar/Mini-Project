@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hostel-gallery img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .price-details {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .facilities-list li {
+            margin-bottom: 10px;
+        }
+
+        .reviews {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hostel & Mess Finder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="HomePage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="HostelListing.html">Hostels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="MessListing.html">Mess</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Hostel Gallery and Description -->
+            <div class="col-md-8">
+                <h3>Hostel Name</h3>
+                <p>Address: 123, Street, City, State</p>
+
+                <!-- Hostel Gallery -->
+                <div class="hostel-gallery">
+                    <img src="hostel1.jpg" alt="Hostel Image 1">
+                    <img src="hostel2.jpg" alt="Hostel Image 2">
+                    <img src="hostel3.jpg" alt="Hostel Image 3">
+                </div>
+
+                <!-- Hostel Description -->
+                <div class="mt-4">
+                    <h5>Description</h5>
+                    <p>This is a detailed description of the hostel, its location, environment, and facilities. This hostel offers both single and shared rooms with various amenities to make students' stay comfortable.</p>
+                </div>
+
+                <!-- Hostel Facilities -->
+                <div class="mt-4">
+                    <h5>Facilities</h5>
+                    <ul class="facilities-list list-unstyled">
+                        <li>✔ Wi-Fi</li>
+                        <li>✔ Air Conditioning</li>
+                        <li>✔ 24/7 Security</li>
+                        <li>✔ Laundry Services</li>
+                        <li>✔ Parking</li>
+                    </ul>
+                </div>
+
+                <!-- Reviews Section -->
+                <div class="reviews mt-5">
+                    <h5>Reviews</h5>
+                    <p>John Doe: "Great place, close to the college. Excellent facilities."</p>
+                    <p>Jane Smith: "Affordable pricing with good security and cleanliness."</p>
+                </div>
+            </div>
+
+            <!-- Price and Booking -->
+            <div class="col-md-4">
+                <div class="price-details">
+                    <h4>Price</h4>
+                    <p>$250 per month</p>
+                    <a href="#" class="btn btn-success btn-block">Book Now</a>
+                </div>
+
+                <div class="contact-details mt-4">
+                    <h5>Contact Details</h5>
+                    <p>Email: hostel@example.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
